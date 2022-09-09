@@ -1,0 +1,3 @@
+name = "message_handler"
+main = "src/index.ts"
+compatibility_date = "2022-09-08"
