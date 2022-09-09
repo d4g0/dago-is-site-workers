@@ -2,6 +2,8 @@
   "name": "message_handler",
   "version": "0.0.0",
   "devDependencies": {
+    "@cloudflare/workers-types": "^3.16.0",
+    "ohmyfetch": "^0.4.18",
     "wrangler": "2.0.29"
   },
   "private": true,

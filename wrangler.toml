@@ -1,3 +1,5 @@
 name = "message_handler"
 main = "src/index.ts"
 compatibility_date = "2022-09-08"
+account_id = "3461c25499f09894cabbcdc181f62234"
+# routes = [""]
