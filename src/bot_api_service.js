@@ -4,9 +4,9 @@ import { $fetch } from "ohmyfetch";
 /**
  * Env
  *  */
-const ADMINISTRATORS_IDS = process.env.ADMINISTRATORS_IDS;
-const SYSTEM_ADMINISTRATOR_IDS = process.env.SYSTEM_ADMINISTRATOR_IDS;
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+// const ADMINISTRATORS_IDS = process.env.ADMINISTRATORS_IDS;
+// const SYSTEM_ADMINISTRATOR_IDS = process.env.SYSTEM_ADMINISTRATOR_IDS;
+// const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 /**
  * Globals
  */

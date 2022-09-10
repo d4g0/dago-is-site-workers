@@ -1,5 +1,12 @@
 name = "message_handler"
-main = "src/index.ts"
+type = "javacript"
+main = "dist/index.mjs"
 compatibility_date = "2022-09-08"
 account_id = "3461c25499f09894cabbcdc181f62234"
 # routes = [""]
+
+[env.dev]
+[env.dev.vars]
+TELEGRAM_BOT_TOKEN = "5699408522:AAHE0GR80eX6vubNaOs7CGxBrwLduWnob2E"
+ADMINISTRATORS_IDS = "974077462"
+SYSTEM_ADMINISTRATOR_IDS = "974077462"

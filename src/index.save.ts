@@ -1,5 +1,13 @@
 // import { bot } from "./bot_api_service";
-
+/**
+ * Welcome to Cloudflare Workers! This is your first worker.
+ *
+ * - Run `wrangler dev src/index.ts` in your terminal to start a development server
+ * - Open a browser tab at http://localhost:8787/ to see your worker in action
+ * - Run `wrangler publish src/index.ts --name my-worker` to publish your worker
+ *
+ * Learn more at https://developers.cloudflare.com/workers/
+ */
 
 export interface Env {
   // Example binding to KV. Learn more at https://developers.cloudflare.com/workers/runtime-apis/kv/
@@ -12,7 +20,7 @@ export interface Env {
   // MY_BUCKET: R2Bucket;
 }
 
-
+const success_init = {};
 
 export default {
   async fetch(
@@ -20,7 +28,7 @@ export default {
     env: Env,
     ctx: ExecutionContext
   ): Promise<Response> {
-    console.log({ env , ctx });
+    console.log({ env });
     return new Response("Foo bar", {
       headers: {
         "Content-Type": "application/json;charset=UTF-8",
